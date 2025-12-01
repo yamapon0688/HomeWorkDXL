@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\11.25">
+      <UniqueIdentifier>{7c788d61-96de-4c4d-8708-300d1a98883c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\11.25\MusicGame">
+      <UniqueIdentifier>{8c405299-bbeb-44d0-9009-5f064e90b2b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ソース.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="HWDXL11.25-1.cpp">
+      <Filter>ソース ファイル\11.25</Filter>
+    </ClCompile>
+    <ClCompile Include="HWDXL11.25-2.cpp">
+      <Filter>ソース ファイル\11.25</Filter>
+    </ClCompile>
+    <ClCompile Include="HWDXL11.25-3.cpp">
+      <Filter>ソース ファイル\11.25</Filter>
+    </ClCompile>
+    <ClCompile Include="judgeCheck.cpp">
+      <Filter>ソース ファイル\11.25\MusicGame</Filter>
+    </ClCompile>
+    <ClCompile Include="musicGame.cpp">
+      <Filter>ソース ファイル\11.25\MusicGame</Filter>
+    </ClCompile>
+    <ClCompile Include="play.cpp">
+      <Filter>ソース ファイル\11.25\MusicGame</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\11.25\MusicGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Prototype.h">
+      <Filter>ソース ファイル\11.25\MusicGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
