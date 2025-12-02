@@ -8,7 +8,7 @@ void title(int* timer, int* scene, const int* WIDTH, const int* HEIGHT, const Co
     int blinkDuration = 5;
     if (*timer % blink < blinkDuration)
     {
-        DrawFormatString((*WIDTH / 2) - 100, (*HEIGHT / 2) + 200, color->YELLOW, "Press space key");
+        DrawFormatString((*WIDTH / 2) - 100, (*HEIGHT / 2) + 200, color->YELLOW, "PUSH SPACE");
     }
    
     if (CheckHitKey(KEY_INPUT_SPACE) == 1)

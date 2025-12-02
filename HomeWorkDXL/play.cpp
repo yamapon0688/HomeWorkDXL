@@ -40,7 +40,7 @@ void play(const int* WIDTH, const int* HEIGHT, int* timer, int* scene, int* note
     {
         if (d <= CHECK)
         {
-            judgeCheck(judgePos[X], judgePos[Y], d, &judgeCount[0], judge, se);
+            judgeCheck(judgePos[X], judgePos[Y], d, &judgeCount[0], color, judge, se);
             *timer = 0;
         }
     }
