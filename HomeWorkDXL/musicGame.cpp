@@ -58,12 +58,6 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         WaitTimer(33); // 一定時間待つ
         if (ProcessMessage() == -1) break; // Windowsから情報を受け取りエラーが起きたら終了
         if (CheckHitKey(KEY_INPUT_ESCAPE) == 1) break; // ESCキーが押されたら終了
-        if (se.greatSe == -1 || se.goodSe == -1 || se.missSe == -1) {
-            // 何らかのエラー表示やメッセージボックスを表示
-            MessageBox(NULL, "サウンドファイルの読み込みに失敗しました。", "エラー", MB_OK | MB_ICONERROR);
-            DxLib_End();
-            return -1; // 強制終了する
-        }
     }
     DxLib_End; // ＤＸライブラリ使用の終了処理
     return 0; // ソフトの終了
