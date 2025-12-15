@@ -1,3 +1,4 @@
+/*
 #include "Prototype.h"
 #include <math.h>
 
@@ -16,13 +17,13 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     {
         10, 40, 100
     };
-    Color color =
+    const Color color =
     {
-        GetColor(255, 255, 255), // 白
-        GetColor(255, 255, 0), // 黄
-        GetColor(255, 0, 0), // 赤
-        GetColor(0, 255, 0), // 緑
-        GetColor(0, 0, 255), // 青
+        (signed int)GetColor(255, 255, 255), // 白
+        (signed int)GetColor(255, 255, 0), // 黄
+        (signed int)GetColor(255, 0, 0), // 赤
+        (signed int)GetColor(0, 255, 0), // 緑
+        (signed int)GetColor(0, 0, 255), // 青
     };
     Se se =
     {
@@ -59,9 +60,12 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         if (ProcessMessage() == -1) break; // Windowsから情報を受け取りエラーが起きたら終了
         if (CheckHitKey(KEY_INPUT_ESCAPE) == 1) break; // ESCキーが押されたら終了
     }
-    DxLib_End; // ＤＸライブラリ使用の終了処理
+    DeleteGraph(titleBg);
+    InitSoundMem();
+    DxLib_End(); // ＤＸライブラリ使用の終了処理
     return 0; // ソフトの終了
 }
+*/
 
 
 

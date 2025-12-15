@@ -19,6 +19,12 @@
     <Filter Include="ソース ファイル\11.25\MusicGame">
       <UniqueIdentifier>{8c405299-bbeb-44d0-9009-5f064e90b2b1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\12.9">
+      <UniqueIdentifier>{56e5c9d9-b486-427d-a4fa-f94d416e8ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\12.9\TennisGame">
+      <UniqueIdentifier>{ab497ffa-8bcf-4ac9-a649-6a255e6441c3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ソース.cpp">
@@ -45,10 +51,28 @@
     <ClCompile Include="title.cpp">
       <Filter>ソース ファイル\11.25\MusicGame</Filter>
     </ClCompile>
+    <ClCompile Include="TennisGame.cpp">
+      <Filter>ソース ファイル\12.9\TennisGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TGOver.cpp">
+      <Filter>ソース ファイル\12.9\TennisGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TGPlay.cpp">
+      <Filter>ソース ファイル\12.9\TennisGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TGTitle.cpp">
+      <Filter>ソース ファイル\12.9\TennisGame</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorCheck.cpp">
+      <Filter>ソース ファイル\12.9\TennisGame</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Prototype.h">
       <Filter>ソース ファイル\11.25\MusicGame</Filter>
+    </ClInclude>
+    <ClInclude Include="TGInclude.h">
+      <Filter>ソース ファイル\12.9\TennisGame</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

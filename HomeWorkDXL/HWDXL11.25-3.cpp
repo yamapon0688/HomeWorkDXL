@@ -1,5 +1,5 @@
 #include "DxLib.h"
-
+/*
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
     // 定数の宣言
@@ -65,3 +65,4 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     DxLib_End; // ＤＸライブラリ使用の終了処理
     return 0; // ソフトの終了
 }
+*/

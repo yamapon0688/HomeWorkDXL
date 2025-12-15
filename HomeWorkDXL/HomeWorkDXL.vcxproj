@@ -135,17 +135,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ErrorCheck.cpp" />
     <ClCompile Include="HWDXL11.25-1.cpp" />
     <ClCompile Include="HWDXL11.25-2.cpp" />
     <ClCompile Include="HWDXL11.25-3.cpp" />
     <ClCompile Include="judgeCheck.cpp" />
     <ClCompile Include="musicGame.cpp" />
     <ClCompile Include="play.cpp" />
+    <ClCompile Include="TennisGame.cpp" />
+    <ClCompile Include="TGOver.cpp" />
+    <ClCompile Include="TGPlay.cpp" />
+    <ClCompile Include="TGTitle.cpp" />
     <ClCompile Include="title.cpp" />
     <ClCompile Include="ソース.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Prototype.h" />
+    <ClInclude Include="TGInclude.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
