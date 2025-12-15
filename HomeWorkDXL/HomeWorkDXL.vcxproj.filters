@@ -19,6 +19,12 @@
     <Filter Include="ソース ファイル\11.25\MusicGame">
       <UniqueIdentifier>{8c405299-bbeb-44d0-9009-5f064e90b2b1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\12.9">
+      <UniqueIdentifier>{56e5c9d9-b486-427d-a4fa-f94d416e8ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\12.9\TennisGame">
+      <UniqueIdentifier>{ab497ffa-8bcf-4ac9-a649-6a255e6441c3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ソース.cpp">
@@ -33,22 +39,40 @@
     <ClCompile Include="HWDXL11.25-3.cpp">
       <Filter>ソース ファイル\11.25</Filter>
     </ClCompile>
-    <ClCompile Include="judgeCheck.cpp">
+    <ClCompile Include="MusicGame\judgeCheck.cpp">
       <Filter>ソース ファイル\11.25\MusicGame</Filter>
     </ClCompile>
-    <ClCompile Include="musicGame.cpp">
+    <ClCompile Include="MusicGame\musicGame.cpp">
       <Filter>ソース ファイル\11.25\MusicGame</Filter>
     </ClCompile>
-    <ClCompile Include="play.cpp">
+    <ClCompile Include="MusicGame\play.cpp">
       <Filter>ソース ファイル\11.25\MusicGame</Filter>
     </ClCompile>
-    <ClCompile Include="title.cpp">
+    <ClCompile Include="MusicGame\title.cpp">
       <Filter>ソース ファイル\11.25\MusicGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TennisGame\TennisGame.cpp">
+      <Filter>ソース ファイル\12.9\TennisGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TennisGame\TGOver.cpp">
+      <Filter>ソース ファイル\12.9\TennisGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TennisGame\TGPlay.cpp">
+      <Filter>ソース ファイル\12.9\TennisGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TennisGame\TGTitle.cpp">
+      <Filter>ソース ファイル\12.9\TennisGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TennisGame\TGErrorCheck.cpp">
+      <Filter>ソース ファイル\12.9\TennisGame</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Prototype.h">
+    <ClInclude Include="MusicGame\Prototype.h">
       <Filter>ソース ファイル\11.25\MusicGame</Filter>
+    </ClInclude>
+    <ClInclude Include="TennisGame\TGInclude.h">
+      <Filter>ソース ファイル\12.9\TennisGame</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

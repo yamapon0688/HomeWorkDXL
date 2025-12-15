@@ -1,6 +1,6 @@
 #include "DxLib.h"
 #include "math.h"
-
+/*
 struct Rect
 {
     int posX;
@@ -71,3 +71,4 @@ int hitRectRect(const Rect* rect)
         return FALSE;
     }
 }
+*/

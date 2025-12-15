@@ -1,6 +1,6 @@
 #include "DxLib.h"
 #include "math.h"
-
+/*
 struct Circle
 {
     int posX;
@@ -59,7 +59,7 @@ int hitCircleCircle(const Circle* circle)
     int dx = circle[0].posX - circle[1].posX;
     int dy = circle[0].posY - circle[1].posY;
     int totalR = circle[0].radius + circle[1].radius;
-    int d = sqrt((dx * dx) + (dy * dy));
+    double d = sqrt((dx * dx) + (dy * dy));
     if (d <= totalR)
     {
         return TRUE;
@@ -69,3 +69,4 @@ int hitCircleCircle(const Circle* circle)
         return FALSE;
     }
 }
+*/
