@@ -1,5 +1,5 @@
 /*
-#include "Prototype.h"
+#include "MGPrototype.h"
 #define X 0
 #define Y 1
 #define RADIUS 2

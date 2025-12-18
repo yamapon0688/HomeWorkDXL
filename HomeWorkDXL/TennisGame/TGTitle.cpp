@@ -1,3 +1,4 @@
+/*
 #include "TGInclude.h"
 
 void Title(Ball* ball, Racket* racket, System* system, const Sounds& sounds)
@@ -11,14 +12,15 @@ void Title(Ball* ball, Racket* racket, System* system, const Sounds& sounds)
     }
     if (CheckHitKey(KEY_INPUT_SPACE) == 1)
     {
-        ball->ballX = 40;
-        ball->ballY = 80;
+        ball->pos.x = 40;
+        ball->pos.y = 80;
         ball->ballVx = 5;
         ball->ballVy = 5;
-        racket->racketX = WIDTH / 2;
-        racket->racketY = HEIGHT - 50;
+        racket->pos.x = WIDTH / 2;
+        racket->pos.y = HEIGHT - 50;
         system->score = 0;
         system->scene = PLAY;
         PlaySoundMem(sounds.bgm, DX_PLAYTYPE_LOOP);
     }
 }
+*/

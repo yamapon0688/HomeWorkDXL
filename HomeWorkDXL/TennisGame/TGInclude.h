@@ -1,11 +1,17 @@
+/*
 #pragma once
 #include "DxLib.h"
 #include <stdlib.h>
 
+struct Vector2
+{
+    int x;
+    int y;
+};
+
 struct Ball
 {
-    int ballX;
-    int ballY;
+    Vector2 pos;
     int ballR;
     int ballVx;
     int ballVy;
@@ -13,8 +19,7 @@ struct Ball
 
 struct Racket
 {
-    int racketX;
-    int racketY;
+    Vector2 pos;
     int racketW;
     int racketH;
 };
@@ -41,3 +46,4 @@ bool ErrorCheck(const Sounds& sounds, int imgBg);
 void Title(Ball* ball, Racket* racket, System* system, const Sounds& bgmSe);
 void Play(Ball* ball, Racket* racket, System* system, const Sounds& bgmSe, int* dx, int* dy);
 void Over(System* system);
+*/

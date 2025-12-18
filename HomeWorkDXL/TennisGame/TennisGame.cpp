@@ -1,3 +1,4 @@
+/*
 #include "TGInclude.h"
 #include <time.h>
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
@@ -89,6 +90,6 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     DxLib_End(); // ＤＸライブラリ使用の終了処理
     return 0; // ソフトの終了
 }
-
+*/
 
 

@@ -1,3 +1,4 @@
+/*
 #pragma once
 #include "DxLib.h"
 struct Judge
@@ -39,3 +40,4 @@ const enum // ŠeƒV[ƒ“‚ğ’è‚ß‚é’è”
 void judgeCheck(int judgeX, int judgeY, int d, int* judgeCount, const Color* color, const Judge* judge, const Se* se);
 void title(int* timer, int* scene, const int *WIDTH, const int *HEIGHT, const Color* color, const int* bgm);
 void play(const int *WIDTH, const int *HEIGHT, int* timer, int* scene, int* notePos, int* judgePos, int* judgeCount, const Color* color, const Judge* judge, const Se* se, int* spaceKeyState);
+*/

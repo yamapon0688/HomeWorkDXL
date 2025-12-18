@@ -135,22 +135,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CarRace\CarRace.cpp" />
+    <ClCompile Include="CarRace\CRErrorCheck.cpp" />
+    <ClCompile Include="CarRace\CRGame.cpp" />
+    <ClCompile Include="CarRace\CROver.cpp" />
+    <ClCompile Include="CarRace\CRPlay.cpp" />
+    <ClCompile Include="CarRace\CRTitle.cpp" />
     <ClCompile Include="TennisGame\TGErrorCheck.cpp" />
     <ClCompile Include="HWDXL11.25-1.cpp" />
     <ClCompile Include="HWDXL11.25-2.cpp" />
     <ClCompile Include="HWDXL11.25-3.cpp" />
-    <ClCompile Include="MusicGame\judgeCheck.cpp" />
+    <ClCompile Include="MusicGame\MGJudgeCheck.cpp" />
     <ClCompile Include="MusicGame\musicGame.cpp" />
-    <ClCompile Include="MusicGame\play.cpp" />
+    <ClCompile Include="MusicGame\MGPlay.cpp" />
     <ClCompile Include="TennisGame\TennisGame.cpp" />
     <ClCompile Include="TennisGame\TGOver.cpp" />
     <ClCompile Include="TennisGame\TGPlay.cpp" />
     <ClCompile Include="TennisGame\TGTitle.cpp" />
-    <ClCompile Include="MusicGame\title.cpp" />
+    <ClCompile Include="MusicGame\MGTitle.cpp" />
     <ClCompile Include="ソース.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MusicGame\Prototype.h" />
+    <ClInclude Include="CarRace\CRDrawFuncProto.h" />
+    <ClInclude Include="CarRace\CRInclude.h" />
+    <ClInclude Include="MusicGame\MGPrototype.h" />
     <ClInclude Include="TennisGame\TGInclude.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

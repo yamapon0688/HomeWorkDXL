@@ -39,16 +39,16 @@
     <ClCompile Include="HWDXL11.25-3.cpp">
       <Filter>ソース ファイル\11.25</Filter>
     </ClCompile>
-    <ClCompile Include="MusicGame\judgeCheck.cpp">
+    <ClCompile Include="MusicGame\MGJudgeCheck.cpp">
       <Filter>ソース ファイル\11.25\MusicGame</Filter>
     </ClCompile>
     <ClCompile Include="MusicGame\musicGame.cpp">
       <Filter>ソース ファイル\11.25\MusicGame</Filter>
     </ClCompile>
-    <ClCompile Include="MusicGame\play.cpp">
+    <ClCompile Include="MusicGame\MGPlay.cpp">
       <Filter>ソース ファイル\11.25\MusicGame</Filter>
     </ClCompile>
-    <ClCompile Include="MusicGame\title.cpp">
+    <ClCompile Include="MusicGame\MGTitle.cpp">
       <Filter>ソース ファイル\11.25\MusicGame</Filter>
     </ClCompile>
     <ClCompile Include="TennisGame\TennisGame.cpp">
@@ -66,13 +66,37 @@
     <ClCompile Include="TennisGame\TGErrorCheck.cpp">
       <Filter>ソース ファイル\12.9\TennisGame</Filter>
     </ClCompile>
+    <ClCompile Include="CarRace\CarRace.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CarRace\CRGame.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CarRace\CRPlay.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CarRace\CROver.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CarRace\CRTitle.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CarRace\CRErrorCheck.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MusicGame\Prototype.h">
+    <ClInclude Include="MusicGame\MGPrototype.h">
       <Filter>ソース ファイル\11.25\MusicGame</Filter>
     </ClInclude>
     <ClInclude Include="TennisGame\TGInclude.h">
       <Filter>ソース ファイル\12.9\TennisGame</Filter>
+    </ClInclude>
+    <ClInclude Include="CarRace\CRInclude.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CarRace\CRDrawFuncProto.h">
+      <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

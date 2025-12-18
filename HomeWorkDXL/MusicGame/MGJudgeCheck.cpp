@@ -1,4 +1,5 @@
-#include "Prototype.h"
+/*
+#include "MGPrototype.h"
 
 void judgeCheck(int judgeX, int judgeY, int d, int* judgeCount, const Color* color, const Judge* judge, const Se* se)
 {
@@ -22,3 +23,4 @@ void judgeCheck(int judgeX, int judgeY, int d, int* judgeCount, const Color* col
         PlaySoundMem(se->missSe, DX_PLAYTYPE_BACK);
     }
 }
+*/

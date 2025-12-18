@@ -1,4 +1,5 @@
-#include "Prototype.h"
+/*
+#include "MGPrototype.h"
 void title(int* timer, int* scene, int WIDTH, int HEIGHT, const Color& color, const int& BGM)
 {
     SetFontSize(30);
@@ -18,3 +19,4 @@ void title(int* timer, int* scene, int WIDTH, int HEIGHT, const Color& color, co
         *scene = PLAY;
     }
 }
+*/

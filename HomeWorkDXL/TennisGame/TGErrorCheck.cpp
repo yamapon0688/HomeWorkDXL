@@ -1,5 +1,6 @@
+/*
 #include "TGInclude.h"
-void DrawErrorMessage(int& y, const char* message)
+static void DrawErrorMessage(int& y, const char* message)
 {
     int lineHeight = 20;
     DrawString(0, y, message, 0x00ff00);
@@ -25,3 +26,4 @@ bool ErrorCheck(const Sounds& sounds, int imgBg)
     }
     return FALSE;
 }
+*/
